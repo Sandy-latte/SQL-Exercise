@@ -1,3 +1,5 @@
+*Learning & exercise sources from: https://www.youtube.com/watch?v=p3qvj9hO_Bo & https://github.com/WebDevSimplified/Learn-SQL/tree/master
+
 create database record_company
 use record_company;
 
@@ -254,7 +256,6 @@ group by songs.album_id
 order by Duration desc 
 limit 1 
 
--select * from albums 
 update albums 
 set release_year  = 1986 
 where id  = 4 
